@@ -3,3 +3,40 @@
   margin: 0;
   padding: 0;
 }
+/* utility */
+.float_left{
+  float: left;
+}
+
+.float_right{
+}
+
+.bgc_blue{
+  background-color: #0C325A;
+}
+
+.bgc_green{
+  background-color: #7CBB02;
+}
+
+.bgc_grey{
+  background-color: #D3D3D3;
+}
+ /* /utility */
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+header{
+  height: 550px;
+}
+
+main{
+  height: 1000px;
+}
+
+footer{
+  height: 150px;
+}
