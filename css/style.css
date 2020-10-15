@@ -100,7 +100,7 @@
 h3{
   color: grey;
 }
-
+/* main */
 main{
   height: 1000px;
 }
@@ -109,7 +109,7 @@ main{
   width: 80%;
   margin: auto;
 }
-
+/* parte superiore */
 .main_top_row:after{
   content: "";
   display: table;
@@ -144,6 +144,33 @@ main{
 .main_container hr{
   color: grey;
 }
+/* parte inferiore */
+
+.main_bottom_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col_bot{
+  text-align: center;
+  width: 50%;
+  padding: 10px 50px;
+}
+
+.main_bottom_row{
+  padding-top: 20px;
+}
+
+.main_bottom_row img{
+  width: 120%;
+}
+
+.main_bottom_row h2, p, a{
+  margin-right: 260px;
+  margin-bottom: 20px;
+}
+
 
 
 footer{
