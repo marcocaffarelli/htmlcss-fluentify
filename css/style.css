@@ -27,6 +27,7 @@
 
 .container{
   width: 100%;
+  height: 450px;
   margin: auto;
 }
 
@@ -103,6 +104,47 @@ h3{
 main{
   height: 1000px;
 }
+
+.main_container{
+  width: 80%;
+  margin: auto;
+}
+
+.main_top_row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col_top{
+  text-align: center;
+  width: 33.3%;
+  padding: 10px 50px;
+}
+
+.main_top_row img{
+  width: 100%;
+}
+
+.col_top h2{
+  color: #7CBB02;
+  margin-bottom: 20px;
+}
+
+.col_top p{
+  color: grey;
+  margin: 20px 0;
+}
+
+.col_top hr{
+  width: 70px;
+  margin: auto;
+}
+
+.main_container hr{
+  color: grey;
+}
+
 
 footer{
   height: 150px;
