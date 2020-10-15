@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 /* utility */
 .float_left{
@@ -31,6 +32,39 @@
 
 header{
   height: 550px;
+}
+
+/* nav */
+.nav_bar{
+line-height: 80px;
+}
+
+.nav_left{
+  width: 15%;
+  padding-top: 8px
+}
+
+.nav_center{
+  width: 55%;
+}
+
+.nav_right{
+  width: 30%;
+}
+
+.nav_bar:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav_bar a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav_center > a{
+  padding-left: 15px;
 }
 
 main{
